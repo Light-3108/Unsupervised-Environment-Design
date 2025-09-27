@@ -11,10 +11,10 @@ Full observation is given.
 - **Mean reward over 100 episodes:** 0.8560039062499999  
 - **Solved percentage:** 89%  
 
-![10_blocks_1](Notes/10_blocks_1.gif)  
-![10_blocks_2](Notes/10_blocks_2.gif)  
-![10_blocks_4](Notes/10_blocks_4.gif)  
-![10_blocks_3](Notes/10_blocks_3.gif)  
+<div style="display: flex; gap: 10px;">
+  <img src="Notes/10_blocks.gif" width="300">
+  <img src="Notes/10_blocks_1.gif" width="300">
+</div>
 
 ---
 
@@ -22,7 +22,10 @@ Full observation is given.
 - **Mean reward over 100 episodes:** 0.8495546875  
 - **Solved percentage:** 88%  
 
-![two_room_run](Notes/two_room_run.gif)  
+<div style="display: flex; gap: 10px;">
+  <img src="Notes/2_rooms.gif" width="300">
+  <img src="Notes/2_rooms_2.gif" width="300">
+</div>
 
 ---
 
@@ -32,8 +35,10 @@ Here the environment without blocks is never seen by the agent, so it can be con
 - **Mean reward:** 0.8433515625  
 - **Solved percentage:** 87%  
 
-![out_of_dist_1](Notes/out_of_dist_1.gif)  
-![out_of_dist_2](Notes/out_of_dist_2.gif)  
+<div style="display: flex; gap: 10px;">
+  <img src="Notes/empty_2.gif" width="300">
+  <img src="Notes/empty.gif" width="300">
+</div>
 
 ---
 
@@ -41,10 +46,10 @@ Here the environment without blocks is never seen by the agent, so it can be con
 - **Mean reward:** 0.712578125  
 - **Solved percentage:** 74%  
 
-![four_room_run](Notes/four_room_run.gif)  
-![four_room_run_solved](Notes/four_room_run_solved.gif)  
-![four_room_run_failed](Notes/four_room_run_failed.gif)  
-![four_room_run_2](Notes/four_room_run_2.gif)  
+<div style="display: flex; gap: 10px;">
+  <img src="Notes/four_rooms.gif" width="300">
+  <img src="Notes/four_rooms_1.gif" width="300">
+</div>
 
 ---
 
@@ -52,4 +57,4 @@ Here the environment without blocks is never seen by the agent, so it can be con
 - **Mean reward:** 0  
 - **Solved percentage:** 0  
 
-![mingle_mingle](Notes/mingle_mingle.gif)
+<img src="Notes/mingle_mingle.gif" width="300">
