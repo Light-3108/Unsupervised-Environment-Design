@@ -9,8 +9,6 @@ Trained for 20M steps
 
 1. 10 Blocks
 
-![alt text](<Screenshot 2025-09-27 060841.png>)
-
 Mean reward over 100 episodes = 0.8560039062499999 
 
 Solved percentage = 89%
