@@ -13,10 +13,9 @@ Mean reward over 100 episodes = 0.8560039062499999
 
 Solved percentage = 89%
 
+![alt text](10_blocks.gif)
+
 ![alt text](10_blocks_1.gif)
-![alt text](10_blocks_2.gif)
-![alt text](10_blocks_4.gif)
-![alt text](10_blocks_3.gif)
 
 2. 2_rooms
 
@@ -24,7 +23,10 @@ Mean reward over 100 episodes = 0.8495546875
 
 solved percentage = 88%
 
-![alt text](two_room_run.gif)
+![alt text](2_rooms.gif)
+
+![alt text](2_rooms_2.gif)
+
 
 3. Empty Room (out_of_distribution)
 
@@ -36,10 +38,9 @@ Mean reward = 0.8433515625
 
 solved percentage = 87
 
-![alt text](out_of_dist_1.gif)
+![alt text](empty_2.gif)
 
-![alt text](out_of_dist_2.gif)
-
+![alt text](empty.gif)
 
 4. Four Rooms 
 
@@ -47,13 +48,11 @@ Mean reward= 0.712578125
 
 solved percentage = 74
 
-![alt text](four_room_run.gif)
+![alt text](four_rooms.gif)
 
-![alt text](four_room_run_solved.gif)
+![alt text](four_rooms_1.gif)
 
-![alt text](four_room_run_failed.gif)
 
-![alt text](four_room_run_2.gif)
 
 5. lybarinth
 
@@ -61,9 +60,8 @@ Mean reward = 0
 solved percentage = 0
 
 
+
 ![alt text](mingle_mingle.gif)
-
-
 
 
 

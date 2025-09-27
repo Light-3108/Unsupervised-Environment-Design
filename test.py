@@ -1,14 +1,14 @@
 import torch
 import matplotlib.pyplot as plt
 from minigrid.wrappers import FullyObsWrapper
-from environments.lybarinth import make_env
+# from environments.out_of_dist import make_env
 
 from parallel_env import SimpleEnv
 from protagonist_mdp import Protagonist
 from gymnasium.vector import SyncVectorEnv, AsyncVectorEnv
 from parallel_env import SimpleEnv
 from helper import *
-# from parallel_env import make_env
+from parallel_env import make_env
 import imageio
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -66,10 +66,10 @@ for ep in range(episodes):
 
 env.close()
 
-imageio.mimsave("mingle_mingle_1.gif", frames, fps=5)
+imageio.mimsave("10_blocks_1.gif", frames, fps=5, loop=0)
 
 mean_reward = np.mean(episode_rewards)
-no_solved = np.sum(np.array(episode_rewards)>0)
+no_solved = np.sum(np.array(episode_rewards) > 0)
 
 print(mean_reward,no_solved)
 # === Plot rewards ===

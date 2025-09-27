@@ -85,7 +85,7 @@ class SimpleEnv(MiniGridEnv):
 
         self.agent_pos = (7, 8)
         self.agent_dir = np.random.randint(0, 4)  # 0-3 for directions
-        self.put_obj(Goal(), 5, 2)
+        self.put_obj(Goal(), 2, 2)
 
         
 
