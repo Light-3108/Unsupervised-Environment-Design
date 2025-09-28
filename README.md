@@ -1,3 +1,5 @@
+Medium Story: https://medium.com/@dthapa2059/unsupervised-environment-design-60b623cbb41f
+
 # 10x10 Grid
 
 Full observation is given.  
